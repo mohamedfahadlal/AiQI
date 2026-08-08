@@ -43,7 +43,7 @@ AiQI utilizes a robust **three-tier architecture** with components communicating
 | **ML Models** | XGBoost, Random Forest, LightGBM | AQI forecasting |
 | **ML Tools** | Scikit-learn, Pandas, NumPy, SHAP | Data processing & model evaluation |
 | **External APIs** | OpenWeatherMap, Nominatim, ip-api | Live data fetching & geocoding |
-| **Utilities** | iText / Apache PDFBox | PDF report generation |
+| **Utilities** | Apache PDFBox | PDF report generation |
 
 ---
 
@@ -56,9 +56,15 @@ AiQI utilizes a robust **three-tier architecture** with components communicating
 * Supabase Account (for PostgreSQL)
 * API Keys: OpenWeatherMap, Gmail SMTP (for OTP)
 
+### Demo
+
+**1. Working Demo**
+[check the demo](https://drive.google.com/file/d/1ZO3AGvXY89lYv9qqPFGj_tmRt7o1uQ4q/view?usp=sharing)
+
+
 ### Installation
 
-**1. Clone the repository**
+**2. Clone the repository**
 ```bash
 git clone [https://github.com/yourusername/AiQI.git](https://github.com/yourusername/AiQI.git)
 cd AiQI
